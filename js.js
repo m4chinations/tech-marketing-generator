@@ -28,8 +28,14 @@ $(document).ready(function() {
         context.drawImage(base, 0, 0);
     
         var dear = $('#dear').val();
+        if (dear == "")
+            dear = "Dear Simpleton,"; 
         var body = $('#body').val();
+        if (body == "")
+            body = "We're sorry you are having trouble understanding our business model.";
         var love = $('#love').val();
+        if (love == "")
+            love = "Love,\nus.";
 
         context.font = '14px Nunito';
         context.fillStyle = 'white';
@@ -37,6 +43,8 @@ $(document).ready(function() {
         wrapText(context, body, 307.5, 369.5, 210, 20);
         wrapText(context, love, 427.5, 522.5, 100, 20);
     }
+
+    setTimeout(draw, 500);
 
 
 function wrapText(context, text, x, y, maxWidth, lineHeight) {
