@@ -32,7 +32,7 @@ $(document).ready(function() {
             dear = "Dear Everyone,"; 
         var body = $('#body').val();
         if (body == "")
-            body = "We're sorry you are having trouble understanding our business model.";
+            body = "We're paying our taxes.";
         var love = $('#love').val();
         if (love == "")
             love = "Love,\nus.";
