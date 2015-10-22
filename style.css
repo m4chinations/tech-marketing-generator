@@ -1,0 +1,31 @@
+canvas {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+#left {
+    width: 400px;
+    height: 100%;
+    z-index: 500;
+    position: absolute;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 500;
+}
+
+textarea {
+    margin: 10px 0 10px 0;
+}
+
+
+button:hover + .meme-hover {
+    display: block;
+}
+
+.meme-hover {
+    display: none;
+}
