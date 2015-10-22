@@ -18,6 +18,7 @@ canvas {
     position: absolute;
 }
 #footer {
+    font-size: 10px;
     position: fixed;
     bottom: 0;
     z-index: 500;
