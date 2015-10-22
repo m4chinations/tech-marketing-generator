@@ -22,7 +22,7 @@ textarea {
 }
 
 
-button:hover + .meme-hover {
+a:hover + .meme-hover {
     display: block;
 }
 
