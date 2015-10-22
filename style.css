@@ -10,6 +10,21 @@ canvas {
     top: 0;
 }
 
+@media (max-width: 800px) {
+    canvas {
+        display: block;
+        position: relative;
+        right: auto;
+        top: auto;
+    }
+    #left {
+        position: relative !important;
+    }
+    body {
+        overflow: visible;
+    }
+}
+
 
 #left {
     width: 400px;
