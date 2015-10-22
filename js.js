@@ -29,7 +29,7 @@ $(document).ready(function() {
     
         var dear = $('#dear').val();
         if (dear == "")
-            dear = "Dear Simpleton,"; 
+            dear = "Dear Everyone,"; 
         var body = $('#body').val();
         if (body == "")
             body = "We're sorry you are having trouble understanding our business model.";
