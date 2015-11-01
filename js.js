@@ -13,7 +13,7 @@ $(document).ready(function() {
         draw();
     });
 
-    $('a').click(function() {
+    $('.doit').click(function() {
         console.log("clicked");
         var dt = canvas.toDataURL('image/jpeg');
         this.href = dt;
